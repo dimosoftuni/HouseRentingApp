@@ -8,7 +8,7 @@ pipeline{
             }
             post{
                 failure{
-                    echo "Step executed successfully"
+                    echo "Step failed"
                 }
             }
         }
