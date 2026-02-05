@@ -7,7 +7,7 @@ pipeline{
                 bat 'dotnet restore'
             }
             post{
-                always{
+                failure{
                     echo "Step executed successfully"
                 }
             }
