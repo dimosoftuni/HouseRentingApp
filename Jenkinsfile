@@ -30,4 +30,5 @@ pipeline{
         always{
             echo "Workflow completed successfully"
         }
+    }
 }
